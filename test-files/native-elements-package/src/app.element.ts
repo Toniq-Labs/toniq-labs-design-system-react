@@ -1,4 +1,4 @@
-import {Copy16Icon, ToniqIcon} from '@toniq-labs/design-system';
+import {Copy16Icon, ToniqIcon} from '@toniq-labs/design-system-react';
 import {assign, defineElementNoInputs, html} from 'element-vir';
 
 export const AppElement = defineElementNoInputs({

@@ -8,7 +8,7 @@
         "test:types": "tsc --noEmit"
     },
     "dependencies": {
-        "@toniq-labs/design-system": "file:../../../toniq-labs-design-system.tgz"
+        "@toniq-labs/design-system-react": "file:../../../toniq-labs-design-system-react.tgz"
     },
     "devDependencies": {
         "prettier": "^2.8.7",

@@ -6,7 +6,7 @@ import {repoRootDir, testFilesDir} from './common/file-paths';
 import {insertPreInstallScript, removePreInstallScript} from './publishing';
 
 async function deleteAllCaches(testDirPath: string) {
-    await runShellCommand('rm -rf ./node_modules/@toniq-labs/design-system', {
+    await runShellCommand('rm -rf ./node_modules/-react', {
         cwd: testDirPath,
         rejectOnError: true,
     });
@@ -28,7 +28,7 @@ async function runTests(tarFullPath: string) {
 
         try {
             const tarPath = relative(testDirPath, tarFullPath);
-            await runShellCommand('npm uninstall @toniq-labs/design-system', {
+            await runShellCommand('npm uninstall @toniq-labs/design-system-react', {
                 cwd: testDirPath,
                 rejectOnError: true,
             });
@@ -88,8 +88,8 @@ async function main() {
         }
         const originalTarPath = join(repoRootDir, tarName);
         tarPath = originalTarPath.replace(
-            /toniq-labs-design-system.+\.tgz/,
-            'toniq-labs-design-system.tgz',
+            /toniq-labs-design-system-react.+\.tgz/,
+            'toniq-labs-design-system-react.tgz',
         );
         await rename(originalTarPath, tarPath);
         await runTests(tarPath);

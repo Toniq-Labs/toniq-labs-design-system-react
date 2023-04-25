@@ -4,7 +4,7 @@
     
     Currently these scripts remove and re-insert a preinstall npm script which is needed to run
     "npm install" locally in this repo, but causes issues when another packages tries to install
-    this package from npm (via "npm install @toniq-labs/design-system").
+    this package from npm (via "npm install @toniq-labs/design-system-react").
 */
 import {readFile, writeFile} from 'fs/promises';
 import {join} from 'path';

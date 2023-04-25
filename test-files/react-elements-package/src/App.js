@@ -1,5 +1,8 @@
-import {Copy16Icon} from '@toniq-labs/design-system';
-import {ToniqButton, ToniqIcon} from '@toniq-labs/design-system/dist/esm/elements/react-components';
+import {Copy16Icon} from '@toniq-labs/design-system-react';
+import {
+    ToniqButton,
+    ToniqIcon,
+} from '@toniq-labs/design-system-react/dist/esm/elements/react-components';
 
 export default function App() {
     return (

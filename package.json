@@ -1,5 +1,5 @@
 {
-    "name": "@toniq-labs/design-system",
+    "name": "@toniq-labs/design-system-react",
     "version": "1.0.0",
     "private": false,
     "description": "Design system elements for Toniq Labs",
@@ -17,13 +17,13 @@
         "toniq labs",
         "toniq"
     ],
-    "homepage": "https://toniq-labs.github.io/toniq-labs-design-system",
+    "homepage": "https://toniq-labs.github.io/toniq-labs-design-system-react",
     "bugs": {
-        "url": "https://github.com/Toniq-Labs/toniq-labs-design-system/issues"
+        "url": "https://github.com/Toniq-Labs/toniq-labs-design-system-react/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Toniq-Labs/toniq-labs-design-system.git"
+        "url": "git+https://github.com/Toniq-Labs/toniq-labs-design-system-react.git"
     },
     "license": "MIT",
     "author": {
@@ -112,5 +112,8 @@
         "typescript": "^4.9.5",
         "virmator": "^6.4.3",
         "vite": "^4.1.1"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

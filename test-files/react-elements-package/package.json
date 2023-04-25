@@ -20,7 +20,7 @@
         ]
     },
     "dependencies": {
-        "@toniq-labs/design-system": "file:../../../toniq-labs-design-system.tgz"
+        "@toniq-labs/design-system-react": "file:../../../toniq-labs-design-system-react.tgz"
     },
     "devDependencies": {
         "browserlist": "^1.0.1",

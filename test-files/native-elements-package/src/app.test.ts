@@ -1,5 +1,5 @@
 import {assert, expect, fixture} from '@open-wc/testing';
-import {Copy16Icon} from '@toniq-labs/design-system';
+import {Copy16Icon} from '@toniq-labs/design-system-react';
 import {html} from 'element-vir';
 import {unsafeHTML} from 'lit/directives/unsafe-html.js';
 import {AppElement} from './app.element';
